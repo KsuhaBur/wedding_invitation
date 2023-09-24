@@ -1,0 +1,62 @@
+.color {
+    &__title {
+        @include title();
+        margin-bottom: 16px;
+    }
+
+    &__colors {
+        z-index: 10;
+        display: flex;
+        width: 450px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+
+}
+
+.square {
+    
+
+    &__one {
+        background: #f8f6ea;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__two {
+        background-color: #e8e1cf;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__three {
+        background-color: #e4d9c3;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__four {
+        background-color: #dcc2a7;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__five {
+        background-color: #a98b71;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__six {
+        background-color: #a48f7c;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__seven {
+        background-color: #839089;
+        width: 50px;
+        height: 50px;
+    }
+}

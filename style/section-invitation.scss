@@ -1,0 +1,32 @@
+@import 'mixins.scss';
+
+.invitation {
+
+    &__title {
+      @include title();
+      margin-bottom: 16px;
+    }
+  
+    &__description {
+      margin-bottom: 1.5rem;
+    }
+  
+    &__pic img {
+      margin-bottom: 1.5rem;
+    }
+  
+    &__calendar {
+      font-size: 20px;
+    }
+  
+  }
+  
+  table {
+    width: 250px;
+    margin: 0 auto;
+  
+  }
+  
+  td {
+    padding: 10px;
+  }

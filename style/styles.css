@@ -1,14 +1,12 @@
-html, body {
+html, body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0;
-  color: white; }
+  padding: 0; }
 
 .fon {
   background-image: url(/assets/193.jpg);
   background-size: cover;
   width: 100%;
-  height: 100%;
-  z-index: 1; }
+  height: 100%; }
 
 .fon:before {
   content: '';
@@ -22,9 +20,42 @@ html, body {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5); }
 
+.fon-2 {
+  background-image: url(/assets/193.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.fon-2:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+img {
+  width: 150px; }
+
 .container {
   max-width: 1200px;
   margin: 0 auto; }
+
+.container-2 {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+section {
+  padding: 16px;
+  text-align: center; }
+
+hr {
+  width: 250px;
+  border: 2px solid black; }
 
 .names {
   font-size: 25px;
@@ -32,7 +63,8 @@ html, body {
   height: 100vh;
   position: relative;
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+  color: white; }
   .names__container {
     position: absolute;
     top: 45%;
@@ -45,7 +77,138 @@ html, body {
   .names__date {
     font-size: 50px; }
 
+.invitation__title {
+  font-size: 30px;
+  margin-bottom: 16px; }
+.invitation__description {
+  margin-bottom: 1.5rem; }
 .invitation__pic img {
-  width: 60px; }
+  margin-bottom: 1.5rem; }
+.invitation__calendar {
+  font-size: 20px; }
+
+table {
+  width: 250px;
+  margin: 0 auto; }
+
+td {
+  padding: 10px; }
+
+.place {
+  padding: auto 0; }
+  .place__title {
+    font-size: 30px;
+    margin-bottom: 16px; }
+  .place__map {
+    text-align: center;
+    width: 590px;
+    margin: 0 auto; }
+  .place__place {
+    font-size: 18px; }
+
+.program__title {
+  font-size: 30px;
+  margin-bottom: 1rem; }
+.program__container {
+  padding: 16px; }
+.program__time {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 18px; }
+.program__text {
+  margin-bottom: 1rem;
+  font-size: 20px; }
+
+.color__title {
+  font-size: 30px;
+  margin-bottom: 16px; }
+.color__colors {
+  z-index: 10;
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+  justify-content: space-between; }
+
+.square__one {
+  background: #f8f6ea;
+  width: 50px;
+  height: 50px; }
+.square__two {
+  background-color: #e8e1cf;
+  width: 50px;
+  height: 50px; }
+.square__three {
+  background-color: #e4d9c3;
+  width: 50px;
+  height: 50px; }
+.square__four {
+  background-color: #dcc2a7;
+  width: 50px;
+  height: 50px; }
+.square__five {
+  background-color: #a98b71;
+  width: 50px;
+  height: 50px; }
+.square__six {
+  background-color: #a48f7c;
+  width: 50px;
+  height: 50px; }
+.square__seven {
+  background-color: #839089;
+  width: 50px;
+  height: 50px; }
+
+.form {
+  width: 400px;
+  text-align: start;
+  margin: 0 auto; }
+  .form__title {
+    font-size: 30px;
+    margin-bottom: 16px; }
+  .form__text {
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 8px; }
+  .form__form {
+    display: flex;
+    flex-direction: column; }
+  .form__input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black; }
+  .form__input:focus {
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 18px; }
+  .form__label {
+    display: flex;
+    flex-direction: row; }
+  .form__presence {
+    margin-bottom: 16px; }
+  .form__radio {
+    margin: 8px; }
+  .form__button {
+    border-radius: 0;
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto; }
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px; }
+
+.footer {
+  padding: 24px;
+  text-align: center; }
+  .footer__text {
+    font-size: 28px; }
 
 /*# sourceMappingURL=styles.css.map */
