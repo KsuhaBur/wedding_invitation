@@ -6,6 +6,7 @@
     vertical-align: middle;
     text-align: center;
     color: white;
+
   
   
     &__container {
@@ -17,8 +18,10 @@
     }
   
     &__name {
-      font-size: 55px;
+      font-size: 65px;
       border-bottom: 1px solid white;
+      font-family: 'Inter', sans-serif !important;
+font-family: 'Playfair', serif !important;
     }
   
     &__date {

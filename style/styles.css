@@ -1,6 +1,12 @@
+@charset "UTF-8";
 html, body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
+
+div, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Sofia Sans', sans-serif; }
 
 .fon {
   background-image: url(/assets/193.jpg);
@@ -21,8 +27,9 @@ html, body, h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .fon-2 {
-  background-image: url(/assets/193.jpg);
+  background-image: url(/assets/4.jpg);
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 100%; }
 
@@ -50,12 +57,25 @@ img {
   background-color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 16px;
   text-align: center; }
 
 hr {
   width: 250px;
-  border: 2px solid black; }
+  padding: 0;
+  border: none;
+  color: #333;
+  text-align: center; }
+
+hr:after {
+  content: "☼";
+  display: inline-block;
+  position: relative;
+  font-size: 1.5em;
+  padding: 0 0.25em; }
+
+.line {
+  transform: rotate(45deg);
+  text-align: center; }
 
 .names {
   font-size: 25px;
@@ -72,14 +92,19 @@ hr {
     left: 50%;
     transform: translateX(-50%); }
   .names__name {
-    font-size: 55px;
-    border-bottom: 1px solid white; }
+    font-size: 65px;
+    border-bottom: 1px solid white;
+    font-family: 'Inter', sans-serif !important;
+    font-family: 'Playfair', serif !important; }
   .names__date {
     font-size: 50px; }
 
 .invitation__title {
   font-size: 30px;
-  margin-bottom: 16px; }
+  font-family: 'Inter', sans-serif;
+  font-family: 'Sofia Sans', sans-serif;
+  margin-bottom: 16px;
+  padding-top: 45px; }
 .invitation__description {
   margin-bottom: 1.5rem; }
 .invitation__pic img {
@@ -92,12 +117,22 @@ table {
   margin: 0 auto; }
 
 td {
-  padding: 10px; }
+  padding: 12px; }
+
+.heart {
+  width: 45px;
+  position: absolute;
+  left: -0.9px;
+  top: -0.00001px; }
+  .heart__td {
+    position: relative; }
 
 .place {
   padding: auto 0; }
   .place__title {
     font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
     margin-bottom: 16px; }
   .place__map {
     text-align: center;
@@ -108,6 +143,8 @@ td {
 
 .program__title {
   font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Sofia Sans', sans-serif;
   margin-bottom: 1rem; }
 .program__container {
   padding: 16px; }
@@ -121,6 +158,8 @@ td {
 
 .color__title {
   font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Sofia Sans', sans-serif;
   margin-bottom: 16px; }
 .color__colors {
   z-index: 10;
@@ -164,11 +203,15 @@ td {
   margin: 0 auto; }
   .form__title {
     font-size: 30px;
-    margin-bottom: 16px; }
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-bottom: 16px;
+    text-align: center; }
   .form__text {
     font-size: 18px;
     margin-bottom: 16px;
-    margin-top: 8px; }
+    margin-top: 8px;
+    text-align: center; }
   .form__form {
     display: flex;
     flex-direction: column; }
@@ -189,8 +232,6 @@ td {
     flex-direction: row; }
   .form__presence {
     margin-bottom: 16px; }
-  .form__radio {
-    margin: 8px; }
   .form__button {
     border-radius: 0;
     width: 350px;
@@ -203,10 +244,58 @@ td {
 label {
   display: flex;
   flex-direction: column;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  vertical-align: middle;
+  margin-top: 6px; }
+
+.form__radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  bottom: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  transition: all 0.15s ease-out 0s;
+  background: #f8f6ea;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  z-index: 1000; }
+
+.form__radio:hover {
+  background: #9faab7; }
+
+.form__radio:checked {
+  background: #a98b71; }
+
+.form__radio:checked::before {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  content: '\f00c';
+  font-weight: bold;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Font Awesome 5 Free'; }
+
+.form__radio:checked::after {
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100; }
 
 .footer {
-  padding: 24px;
+  padding-bottom: 75px;
   text-align: center; }
   .footer__text {
     font-size: 28px; }

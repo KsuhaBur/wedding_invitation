@@ -5,6 +5,7 @@
     &__title {
       @include title();
       margin-bottom: 16px;
+      padding-top: 45px;
     }
   
     &__description {
@@ -28,5 +29,16 @@
   }
   
   td {
-    padding: 10px;
+    padding: 12px;
+  }
+
+  .heart {
+    width: 45px;
+    position: absolute;
+    left: -0.9px;
+    top: -0.00001px;
+
+    &__td {
+      position: relative;
+    }
   }
