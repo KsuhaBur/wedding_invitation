@@ -10,10 +10,13 @@ font-family: 'Sofia Sans', sans-serif;
   }
   
   .fon {
-    background-image: url("193.jpg");
+    background-image: url("/style/193.jpg");
     background-size: cover;
+    // background-color: black;
+    // opacity: 0.6;
     width: 100%;
     height: 100%;
+    position: absolute;
   }
   
   .fon:before {
@@ -30,7 +33,7 @@ font-family: 'Sofia Sans', sans-serif;
   }
   
   .fon-2 {
-    background-image: url("4.jpg");
+    background-image: url("/style/4.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
