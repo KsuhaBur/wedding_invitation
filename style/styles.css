@@ -172,7 +172,8 @@ td {
 
 @media (max-device-width: 767px) {
   .place {
-    padding: auto 0; }
+    padding: auto 0;
+    margin-bottom: 60px; }
     .place__title {
       font-size: 40px;
       margin-bottom: 16px; }
@@ -181,7 +182,8 @@ td {
       width: 100%;
       margin: 0 auto; }
     .place__place {
-      font-size: 30px; } }
+      font-size: 30px;
+      margin-bottom: 40px; } }
 .program__title {
   font-size: 30px;
   font-family: 'Inter', sans-serif;
