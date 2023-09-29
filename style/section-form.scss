@@ -29,6 +29,8 @@
         margin-bottom: 8px;
         height: 24px;
         background: transparent;
+        -webkit-border: none;
+        // add other brauzer
         border: none;
         border-bottom: 2px solid black;
         
@@ -114,7 +116,7 @@ label {
   position: absolute;
   align-items:center;
   justify-content:center;
-  // font-family:'Font Awesome 5 Free';
+  font-family:'Font Awesome 5 Free';
 }
 .form__radio:checked::after {
 //   -webkit-animation: click-wave 0.65s;
@@ -149,7 +151,6 @@ label {
     }
 
     &__form {
-      -webkit-appearance: none;
         // width: 400px;
         display: flex;
         flex-direction: column;
@@ -376,7 +377,7 @@ label {
     position: absolute;
     align-items:center;
     justify-content:center;
-    // font-family:'Font Awesome 5 Free';
+    font-family:'Font Awesome 5 Free';
 
   }
 }
