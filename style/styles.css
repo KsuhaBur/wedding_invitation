@@ -480,8 +480,7 @@ label {
   font-weight: bold;
   position: absolute;
   align-items: center;
-  justify-content: center;
-  font-family: 'Font Awesome 5 Free'; }
+  justify-content: center; }
 
 .form__radio:checked::after {
   content: '';
@@ -607,18 +606,21 @@ label {
     .form__input {
       margin-top: 8px;
       margin-bottom: 8px;
-      height: 32px;
+      height: 38px;
       background: transparent;
       border: none;
       border-bottom: 2px solid black; }
     .form__input:focus {
+      font-size: 32px;
       background: transparent;
       outline: none;
       border-bottom: 2px solid black;
-      font-size: 24px; }
+      padding: 16px; }
     .form__label {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      font-size: 2.5em;
+      align-items: center; }
     .form__presence {
       margin-bottom: 18px; }
     .form__button {
@@ -631,7 +633,46 @@ label {
       margin: 0 auto; }
 
   label {
-    font-size: 2.5em; } }
+    font-size: 2.5em; }
+
+  .form__radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    bottom: 2px;
+    left: 0;
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+    transition: all 0.15s ease-out 0s;
+    background: #f8f6ea;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    z-index: 1000; }
+
+  .form__radio:hover {
+    background: #9faab7; }
+
+  .form__radio:checked {
+    background: #a98b71; }
+
+  .form__radio:checked::before {
+    font-size: 50px;
+    width: 1.4em;
+    height: 1.4em;
+    display: flex;
+    content: '\f00c';
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    justify-content: center; } }
 .footer {
   padding-bottom: 75px;
   text-align: center; }
