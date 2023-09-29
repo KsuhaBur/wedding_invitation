@@ -295,47 +295,38 @@ td {
 .color__colors {
   z-index: 10;
   display: flex;
-  width: 450px;
+  width: 70%;
   margin: 0 auto;
   justify-content: space-between; }
 
-.square {
-  margin: 16px; }
-  .square__one {
-    background: #f8f6ea;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
-  .square__two {
-    background-color: #e8e1cf;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
-  .square__three {
-    background-color: #e4d9c3;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
-  .square__four {
-    background-color: #dcc2a7;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
-  .square__five {
-    background-color: #a98b71;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
-  .square__six {
-    background-color: #a48f7c;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
-  .square__seven {
-    background-color: #839089;
-    width: 50px;
-    height: 50px;
-    margin: 16px; }
+.square__one {
+  background: #f8f6ea;
+  width: 50px;
+  height: 50px; }
+.square__two {
+  background-color: #e8e1cf;
+  width: 50px;
+  height: 50px; }
+.square__three {
+  background-color: #e4d9c3;
+  width: 50px;
+  height: 50px; }
+.square__four {
+  background-color: #dcc2a7;
+  width: 50px;
+  height: 50px; }
+.square__five {
+  background-color: #a98b71;
+  width: 50px;
+  height: 50px; }
+.square__six {
+  background-color: #a48f7c;
+  width: 50px;
+  height: 50px; }
+.square__seven {
+  background-color: #839089;
+  width: 50px;
+  height: 50px; }
 
 @media (max-device-width: 767px) {
   .color__title {
@@ -351,36 +342,42 @@ td {
     align-content: space-around; }
 
   .square {
-    margin: 16px;
-    margin-bottom: 16px; }
+    margin: 16px; }
     .square__one {
       background: #f8f6ea;
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin: 16px; }
     .square__two {
       background-color: #e8e1cf;
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin: 16px; }
     .square__three {
       background-color: #e4d9c3;
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin: 16px; }
     .square__four {
       background-color: #dcc2a7;
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin: 16px; }
     .square__five {
       background-color: #a98b71;
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin: 16px; }
     .square__six {
       background-color: #a48f7c;
       width: 100px;
-      height: 100px; }
+      height: 100px;
+      margin: 16px; }
     .square__seven {
       background-color: #839089;
       width: 100px;
-      height: 100px; } }
+      height: 100px;
+      margin: 16px; } }
 @media (max-device-width: 576px) {
   .color__title {
     font-size: 3em;
