@@ -6,3 +6,19 @@
         font-size: 28px;
     }
 }
+
+@include tablet {
+    .footer {
+        &__text {
+            font-size: 3em;
+        }
+    }
+}
+
+@include mobile {
+    .footer {
+        &__text {
+            font-size: 4em;
+        }
+    }
+}

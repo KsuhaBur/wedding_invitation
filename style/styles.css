@@ -503,6 +503,7 @@ label {
       margin-top: 8px;
       text-align: center; }
     .form__form {
+      -webkit-appearance: none;
       display: flex;
       flex-direction: column;
       margin: 0 auto; }
@@ -512,12 +513,15 @@ label {
       height: 32px;
       background: transparent;
       border: none;
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid black;
+      font-size: 32px;
+      padding: 16px; }
     .form__input:focus {
       background: transparent;
       outline: none;
       border-bottom: 2px solid black;
-      font-size: 24px; }
+      font-size: 32px;
+      padding: 16px; }
     .form__label {
       display: flex;
       flex-direction: row;
@@ -609,7 +613,9 @@ label {
       height: 38px;
       background: transparent;
       border: none;
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid black;
+      font-size: 32px;
+      padding: 16px; }
     .form__input:focus {
       font-size: 32px;
       background: transparent;
@@ -678,5 +684,12 @@ label {
   text-align: center; }
   .footer__text {
     font-size: 28px; }
+
+@media (max-device-width: 767px) {
+  .footer__text {
+    font-size: 3em; } }
+@media (max-device-width: 576px) {
+  .footer__text {
+    font-size: 4em; } }
 
 /*# sourceMappingURL=styles.css.map */

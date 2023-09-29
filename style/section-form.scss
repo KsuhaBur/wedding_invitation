@@ -149,6 +149,7 @@ label {
     }
 
     &__form {
+      -webkit-appearance: none;
         // width: 400px;
         display: flex;
         flex-direction: column;
@@ -162,14 +163,16 @@ label {
         background: transparent;
         border: none;
         border-bottom: 2px solid black;
-        
+        font-size: 32px;
+        padding: 16px;
     }
 
     &__input:focus {
         background: transparent;
         outline: none;
         border-bottom: 2px solid black;
-        font-size: 24px;
+        font-size: 32px;
+        padding: 16px;
     }
 
     &__label {
@@ -294,6 +297,8 @@ label {
         background: transparent;
         border: none;
         border-bottom: 2px solid black;
+        font-size: 32px;
+        padding: 16px;
         
     }
 
