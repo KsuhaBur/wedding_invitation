@@ -85,8 +85,6 @@
             align-content: space-around;
 
         }
-    
-    
     }
     
     .square {
@@ -135,6 +133,26 @@
             background-color: #839089;
             width: 100px;
             height: 100px;
+        }
+    }
+}
+
+@include mobile {
+    .color {
+        &__title {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+    
+        &__colors {
+            z-index: 10;
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            align-content: space-around;
+
         }
     }
 }

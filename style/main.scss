@@ -86,11 +86,27 @@ font-family: 'Sofia Sans', sans-serif;
       padding-right: 40px;
       margin: 0 auto;
     }
-    
    }
+
+  @include mobile {
+    section {
+      padding-left: 16px;
+      padding-right: 16px;
+      // margin: 0 auto;
+    }
+  }
     
     .line {
       transform: rotate(45deg);
       text-align: center;
       width: 150px;
     }
+
+@include mobile {
+  .line {
+    transform: rotate(45deg);
+    text-align: center;
+    width: 200px;
+  }
+
+}

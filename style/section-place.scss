@@ -39,3 +39,26 @@
         }
     }
 }
+
+@include mobile {
+    .place {
+        padding: auto 0;
+        margin-bottom: 60px;
+
+        &__title {
+            font-size: 3em;
+            margin-bottom: 16px;
+        }
+    
+        &__map {
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        &__place {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+    }
+}

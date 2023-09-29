@@ -65,11 +65,20 @@ section {
     padding-left: 40px;
     padding-right: 40px;
     margin: 0 auto; } }
+@media (max-device-width: 576px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px; } }
 .line {
   transform: rotate(45deg);
   text-align: center;
   width: 150px; }
 
+@media (max-device-width: 576px) {
+  .line {
+    transform: rotate(45deg);
+    text-align: center;
+    width: 200px; } }
 .names {
   width: 100%;
   height: 100vh;
@@ -98,6 +107,14 @@ section {
     border-bottom: 1px solid white; }
   .names__date {
     font-size: 70px; } }
+@media (max-device-width: 576px) {
+  .names__container {
+    width: 80%; }
+  .names__name {
+    font-size: 100px;
+    border-bottom: 1px solid white; }
+  .names__date {
+    font-size: 80px; } }
 .invitation__title {
   font-size: 30px;
   font-family: 'Inter', sans-serif;
@@ -155,6 +172,35 @@ td {
     top: -0.00001px; }
     .heart__td {
       position: relative; } }
+@media (max-device-width: 576px) {
+  .invitation__title {
+    font-size: 3em;
+    margin-bottom: 16px;
+    padding-top: 45px; }
+  .invitation__description {
+    margin-bottom: 2em;
+    font-size: 24px; }
+  .invitation__pic img {
+    margin-bottom: 1.5rem;
+    width: 350px; }
+  .invitation__calendar {
+    font-size: 3em; }
+
+  table {
+    width: 80%;
+    margin: 0 auto; }
+
+  td {
+    padding: 12px;
+    font-size: 30px; }
+
+  .heart {
+    width: 65px;
+    position: absolute;
+    left: 0.25em;
+    top: -0.15em; }
+    .heart__td {
+      position: relative; } }
 .place {
   padding: auto 0; }
   .place__title {
@@ -183,6 +229,20 @@ td {
       margin: 0 auto; }
     .place__place {
       font-size: 30px;
+      margin-bottom: 40px; } }
+@media (max-device-width: 576px) {
+  .place {
+    padding: auto 0;
+    margin-bottom: 60px; }
+    .place__title {
+      font-size: 3em;
+      margin-bottom: 16px; }
+    .place__map {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto; }
+    .place__place {
+      font-size: 2em;
       margin-bottom: 40px; } }
 .program__title {
   font-size: 30px;
@@ -213,6 +273,20 @@ td {
 
   .image {
     width: 250px; } }
+@media (max-device-width: 576px) {
+  .program__title {
+    font-size: 3em;
+    margin-bottom: 1rem; }
+  .program__time {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2em; }
+  .program__text {
+    margin-bottom: 1rem;
+    font-size: 2.5em; }
+
+  .image {
+    width: 350px; } }
 .color__title {
   font-size: 30px;
   font-family: 'Inter', sans-serif;
@@ -307,6 +381,18 @@ td {
       background-color: #839089;
       width: 100px;
       height: 100px; } }
+@media (max-device-width: 576px) {
+  .color__title {
+    font-size: 3em;
+    margin-bottom: 16px; }
+  .color__colors {
+    z-index: 10;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: space-around; } }
 .form {
   width: 50%;
   text-align: start;
@@ -503,6 +589,52 @@ label {
     display: block;
     position: relative;
     z-index: 100; } }
+@media (max-device-width: 576px) {
+  .form {
+    width: 90%;
+    text-align: start;
+    margin: 0 auto; }
+    .form__title {
+      font-size: 3em;
+      margin-bottom: 16px;
+      text-align: center; }
+    .form__text {
+      font-size: 2.5em;
+      margin-bottom: 16px;
+      margin-top: 8px;
+      text-align: center; }
+    .form__form {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto; }
+    .form__input {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      height: 32px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid black; }
+    .form__input:focus {
+      background: transparent;
+      outline: none;
+      border-bottom: 2px solid black;
+      font-size: 24px; }
+    .form__label {
+      display: flex;
+      flex-direction: row; }
+    .form__presence {
+      margin-bottom: 18px; }
+    .form__button {
+      border-radius: 0;
+      width: 80%;
+      height: 70px;
+      background-color: black;
+      color: white;
+      font-size: 2em;
+      margin: 0 auto; }
+
+  label {
+    font-size: 2.5em; } }
 .footer {
   padding-bottom: 75px;
   text-align: center; }

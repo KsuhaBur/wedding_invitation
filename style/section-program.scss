@@ -49,3 +49,28 @@
         width: 250px;
     }
 }
+
+@include mobile {
+    .program {
+
+        &__title {
+            font-size: 3em;
+            margin-bottom: 1rem;
+        }
+    
+        &__time {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-size: 2em;
+        }
+    
+        &__text {
+            margin-bottom: 1rem;
+            font-size: 2.5em;
+        }
+    }
+
+    .image {
+        width: 350px;
+    }
+}

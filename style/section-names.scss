@@ -63,5 +63,22 @@
   }
 }
 
+@include mobile {
+  .names {
+      &__container {
+        width: 80%;
+      }
+  
+      &__name {
+        font-size: 100px;
+        border-bottom: 1px solid white;
+      }
+  
+      &__date {
+        font-size: 80px;
+      }
+  }
+}
+
 
 

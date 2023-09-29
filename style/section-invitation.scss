@@ -89,3 +89,52 @@
     }
   }
 }
+
+@include mobile {
+  .invitation {
+
+    &__title {
+      font-size: 3em;
+      margin-bottom: 16px;
+      padding-top: 45px;
+    }
+  
+    &__description {
+      margin-bottom: 2em;
+      font-size: 24px;
+    }
+  
+    &__pic img {
+      margin-bottom: 1.5rem;
+      width: 350px;
+    }
+  
+    &__calendar {
+      font-size: 3em;
+    }
+  
+  }
+  
+  table {
+    // width: 250px;
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  td {
+    padding: 12px;
+    font-size: 30px;
+  }
+
+  .heart {
+    width: 65px;
+    position: absolute;
+    left: 0.25em;
+    top: -0.15em;
+
+    &__td {
+      position: relative;
+    }
+  }
+}
