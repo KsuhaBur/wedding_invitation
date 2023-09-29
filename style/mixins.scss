@@ -4,6 +4,35 @@
 font-family: 'Sofia Sans', sans-serif;
   }
 
+@mixin title-tablet {
+  font-size: 40px;
+  
+}
+
   @mixin text {
     font-size: 20px;
   }
+
+  @mixin desktop {
+    @media (max-device-width: $breakpoint_xxl) {
+     @content;
+    } 
+   }
+
+  @mixin laptop {
+   @media (max-device-width: $breakpoint_xl) {
+    @content;
+   } 
+  }
+
+  @mixin tablet {
+    @media (max-device-width: $breakpoint_md) {
+     @content;
+    } 
+   }
+
+   @mixin mobile {
+    @media (max-device-width: $breakpoint_sm) {
+     @content;
+    } 
+   }

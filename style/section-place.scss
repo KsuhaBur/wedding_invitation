@@ -8,10 +8,31 @@
     &__map {
         text-align: center;
         width: 590px;
+        height: 430px;
         margin: 0 auto;
     }
 
     &__place {
         font-size: 18px;
+    }
+}
+
+@include tablet {
+    .place {
+        padding: auto 0;
+        &__title {
+            @include title-tablet();
+            margin-bottom: 16px;
+        }
+    
+        &__map {
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        &__place {
+            font-size: 30px;
+        }
     }
 }

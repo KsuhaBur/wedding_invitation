@@ -20,3 +20,32 @@
         font-size: 20px;
     }
 }
+
+@include tablet {
+    .program {
+
+        &__title {
+            @include title-tablet();
+            margin-bottom: 1rem;
+        }
+    
+        &__container {
+            // padding: 16px;
+        }
+    
+        &__time {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-size: 20px;
+        }
+    
+        &__text {
+            margin-bottom: 1rem;
+            font-size: 30px;
+        }
+    }
+
+    .image {
+        width: 250px;
+    }
+}

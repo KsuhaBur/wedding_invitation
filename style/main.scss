@@ -1,7 +1,10 @@
+@import 'variables.scss';
+
 html, body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     text-align: center;
+    // width: 100%;
   }
 
   div, p, h1, h2, h3, h4, h5, h6 {
@@ -11,11 +14,11 @@ font-family: 'Sofia Sans', sans-serif;
   
   .fon {
     background-image: url("/wedding_invitation/assets/193.jpg");
+    // background-image: url("/assets/193.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;
     height: 100%;
-    position: absolute;
   }
   
   .fon:before {
@@ -33,6 +36,7 @@ font-family: 'Sofia Sans', sans-serif;
   
   .fon-2 {
     background-image: url("/wedding_invitation/assets/4.jpg");
+    // background-image: url("/assets/4.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -56,9 +60,11 @@ font-family: 'Sofia Sans', sans-serif;
   .image {
     width: 150px;
   }
+
+
   
   .container {
-   max-width: 1200px;
+   max-width: 80%;
    margin: 0 auto;
   }
   
@@ -70,6 +76,17 @@ font-family: 'Sofia Sans', sans-serif;
   
    section {
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+   }
+
+   @include tablet {
+    section {
+      padding-left: 40px;
+      padding-right: 40px;
+      margin: 0 auto;
+    }
+    
    }
     
     .line {
