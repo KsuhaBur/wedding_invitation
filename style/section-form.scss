@@ -27,12 +27,13 @@
     &__input {
         margin-top: 8px;
         margin-bottom: 8px;
-        height: 24px;
+        height: 26px;
         background: transparent;
         -webkit-border: none;
         // add other brauzer
         border: none;
         border-bottom: 2px solid black;
+        font-size: 24px;
         
     }
 
@@ -40,7 +41,7 @@
         background: transparent;
         outline: none;
         border-bottom: 2px solid black;
-        font-size: 18px;
+        font-size: 24px;
     }
 
     &__label {
@@ -165,7 +166,7 @@ label {
         border: none;
         border-bottom: 2px solid black;
         font-size: 32px;
-        padding: 16px;
+        // padding: 16px;
     }
 
     &__input:focus {
@@ -173,7 +174,7 @@ label {
         outline: none;
         border-bottom: 2px solid black;
         font-size: 32px;
-        padding: 16px;
+        // padding: 16px;
     }
 
     &__label {
@@ -298,17 +299,17 @@ label {
         background: transparent;
         border: none;
         border-bottom: 2px solid black;
-        font-size: 32px;
-        padding: 16px;
+        // font-size: 32px;
+        // padding: 16px;
         
     }
 
     &__input:focus {
-        font-size: 32px;
+        // font-size: 32px;
         background: transparent;
         outline: none;
         border-bottom: 2px solid black;
-        padding: 16px;
+        // padding: 16px;
     }
 
     &__label {
@@ -368,9 +369,9 @@ label {
     background: #a98b71;
   }
   .form__radio:checked::before {
-    font-size: 50px;
-    width: 1.4em;
-    height: 1.4em;
+    font-size: 40px;
+    width: 1.6em;
+    height: 1.5em;
     display:flex;
     content: '\f00c';
     font-weight:bold;
