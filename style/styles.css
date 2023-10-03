@@ -36,7 +36,7 @@ div, p, h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .fon-2 {
-  background-image: url("/wedding_invitation/assets/4.jpg");
+  background-image: url("/wedding_invitation/assets/1.jpg");
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -628,18 +628,20 @@ label {
     .form__input {
       margin-top: 8px;
       margin-bottom: 8px;
-      height: 3em;
+      height: 60px;
       background: transparent;
       border: none;
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid black;
+      font-size: 50px; }
     .form__input:focus {
+      font-size: 50px;
       background: transparent;
       outline: none;
       border-bottom: 2px solid black; }
     .form__label {
       display: flex;
       flex-direction: row;
-      font-size: 3em;
+      font-size: 50px;
       align-items: center; }
     .form__presence {
       margin-bottom: 18px; }
@@ -653,7 +655,7 @@ label {
       margin: 0 auto; }
 
   label {
-    font-size: 2.5em; }
+    font-size: 3em; }
 
   .form__radio {
     -webkit-appearance: none;
