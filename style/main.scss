@@ -61,6 +61,9 @@ font-family: 'Sofia Sans', sans-serif;
     -o-background-attachment: fixed;
     -moz-background-attachment: fixed;
     width: 100%;
+    overflow:hidden;
+-webkit-overflow-scrolling:touch;
+    // transform: translate3d(0,0,0);
     // height: 100%;
     // position: absolute;
 

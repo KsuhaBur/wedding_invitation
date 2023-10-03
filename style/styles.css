@@ -49,7 +49,9 @@ div, p, h1, h2, h3, h4, h5, h6 {
   -webkit-background-attachment: fixed;
   -o-background-attachment: fixed;
   -moz-background-attachment: fixed;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch; }
 
 .fon-2:before {
   content: '';
@@ -438,7 +440,10 @@ td {
     font-size: 24px; }
   .form__input:focus {
     background: transparent;
+    -webkit-outline: none;
     outline: none;
+    -webkit-border: none;
+    border: none;
     border-bottom: 2px solid black;
     font-size: 24px; }
   .form__label {
@@ -532,14 +537,18 @@ label {
       margin-bottom: 8px;
       height: 32px;
       background: transparent;
+      -webkit-border: none;
       border: none;
       border-bottom: 2px solid black;
       font-size: 32px; }
     .form__input:focus {
       background: transparent;
+      -webkit-outline: none;
       outline: none;
       border-bottom: 2px solid black;
-      font-size: 32px; }
+      font-size: 32px;
+      -webkit-border: none;
+      border: none; }
     .form__label {
       display: flex;
       flex-direction: row;
@@ -632,12 +641,17 @@ label {
       background: transparent;
       border: none;
       border-bottom: 2px solid black;
-      font-size: 50px; }
+      font-size: 50px;
+      -webkit-border: none;
+      border: none; }
     .form__input:focus {
       font-size: 50px;
       background: transparent;
+      -webkit-outline: none;
       outline: none;
-      border-bottom: 2px solid black; }
+      border-bottom: 2px solid black;
+      -webkit-border: none;
+      border: none; }
     .form__label {
       display: flex;
       flex-direction: row;
