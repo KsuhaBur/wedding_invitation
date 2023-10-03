@@ -60,9 +60,18 @@ font-family: 'Sofia Sans', sans-serif;
     -webkit-background-attachment: fixed;
     -o-background-attachment: fixed;
     -moz-background-attachment: fixed;
+    // position: sticky;
     width: 100%;
-    overflow:hidden;
--webkit-overflow-scrolling:touch;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    // height: 100vh; 
+    // margin-top: -100vh; 
+    // overflow:hidden;
+// -webkit-overflow-scrolling:touch;
+  
+z-index: -1;
 // z-index: 50;
     // transform: translate3d(0,0,0);
     // height: 100%;
@@ -128,6 +137,14 @@ font-family: 'Sofia Sans', sans-serif;
       text-align: center;
       width: 150px;
     }
+
+    // .fon-2 {
+    //   background-attachment: scroll;
+    // }
+
+    // .fon-2:before {
+    //   background-attachment: scroll;
+    // }
 
 @include mobile {
   .line {

@@ -50,8 +50,11 @@ div, p, h1, h2, h3, h4, h5, h6 {
   -o-background-attachment: fixed;
   -moz-background-attachment: fixed;
   width: 100%;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch; }
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1; }
 
 .fon-2:before {
   content: '';
