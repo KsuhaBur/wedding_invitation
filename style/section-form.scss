@@ -304,6 +304,7 @@ label {
     }
 
     &__input {
+      font-size: 50px;
         margin-top: 8px;
         margin-bottom: 8px;
         height: 60px;
@@ -312,16 +313,13 @@ label {
         // -webkit-border: none;
         border-bottom: 2px solid black;
         -webkit-border-bottom: 2px solid black;
-        font-size: 50px;
-        
-        // padding: 16px;
         
     }
 
     &__input:focus {
         font-size: 50px;
         background: transparent;
-        -webkit-border: none;
+        // -webkit-border: none;
         border: none;
         -webkit-outline: none;
         outline: none;
