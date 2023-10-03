@@ -444,6 +444,7 @@ td {
     outline: none;
     -webkit-border: none;
     border: none;
+    -webkit-border-bottom: 2px solid black;
     border-bottom: 2px solid black;
     font-size: 24px; }
   .form__label {
@@ -540,15 +541,16 @@ label {
       -webkit-border: none;
       border: none;
       border-bottom: 2px solid black;
+      -webkit-border-bottom: 2px solid black;
       font-size: 32px; }
     .form__input:focus {
       background: transparent;
       -webkit-outline: none;
       outline: none;
-      border-bottom: 2px solid black;
-      font-size: 32px;
       -webkit-border: none;
-      border: none; }
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 32px; }
     .form__label {
       display: flex;
       flex-direction: row;
@@ -640,18 +642,19 @@ label {
       height: 60px;
       background: transparent;
       border: none;
-      border-bottom: 2px solid black;
-      font-size: 50px;
       -webkit-border: none;
-      border: none; }
+      border-bottom: 2px solid black;
+      -webkit-border-bottom: 2px solid black;
+      font-size: 50px; }
     .form__input:focus {
       font-size: 50px;
       background: transparent;
+      -webkit-border: none;
+      border: none;
       -webkit-outline: none;
       outline: none;
       border-bottom: 2px solid black;
-      -webkit-border: none;
-      border: none; }
+      -webkit-border-bottom: 2px solid black; }
     .form__label {
       display: flex;
       flex-direction: row;

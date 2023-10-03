@@ -43,6 +43,7 @@
         outline: none;
         -webkit-border: none;
         border: none;
+        -webkit-border-bottom: 2px solid black;
         border-bottom: 2px solid black;
         font-size: 24px;
     }
@@ -170,6 +171,7 @@ label {
         border: none;
 
         border-bottom: 2px solid black;
+        -webkit-border-bottom: 2px solid black;
         font-size: 32px;
         // padding: 16px;
     }
@@ -178,10 +180,11 @@ label {
         background: transparent;
         -webkit-outline: none;
         outline: none;
-        border-bottom: 2px solid black;
-        font-size: 32px;
         -webkit-border: none;
         border: none;
+        border-bottom: 2px solid black;
+        font-size: 32px;
+        
         // padding: 16px;
     }
 
@@ -306,10 +309,11 @@ label {
         height: 60px;
         background: transparent;
         border: none;
-        border-bottom: 2px solid black;
-        font-size: 50px;
         -webkit-border: none;
-        border: none;
+        border-bottom: 2px solid black;
+        -webkit-border-bottom: 2px solid black;
+        font-size: 50px;
+        
         // padding: 16px;
         
     }
@@ -317,11 +321,13 @@ label {
     &__input:focus {
         font-size: 50px;
         background: transparent;
+        -webkit-border: none;
+        border: none;
         -webkit-outline: none;
         outline: none;
         border-bottom: 2px solid black;
-        -webkit-border: none;
-        border: none;
+        -webkit-border-bottom: 2px solid black;
+        
         // padding: 16px;
     }
 
