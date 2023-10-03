@@ -11,7 +11,7 @@ div, p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Sofia Sans', sans-serif; }
 
 .fon {
-  background-image: url("/assets/193.jpg");
+  background-image: url("/wedding_invitation/assets/193.jpg");
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -36,7 +36,7 @@ div, p, h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .fon-2 {
-  background-image: url("/assets/1.jpg");
+  background-image: url("/wedding_invitation/assets/1.jpg");
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
