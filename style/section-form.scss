@@ -269,7 +269,7 @@ label {
 @include mobile {
   .form {
   
-    width: 90%;
+    width: 95%;
     
     text-align: start;
     margin: 0 auto;
@@ -295,7 +295,7 @@ label {
     &__input {
         margin-top: 8px;
         margin-bottom: 8px;
-        height: 38px;
+        height: 3em;
         background: transparent;
         border: none;
         border-bottom: 2px solid black;
@@ -315,7 +315,7 @@ label {
     &__label {
         display: flex;
         flex-direction: row;
-        font-size: 2.5em;
+        font-size: 3em;
         align-items: center;
         // text-align: center;
     } 
